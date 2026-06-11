@@ -1,16 +1,95 @@
-# React + Vite
+# 📅 Jadwal Presentasi Kurikulum Sekolah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web sederhana untuk menampilkan jadwal presentasi kurikulum sekolah di lingkungan Yayasan BOPKRI Yogyakarta.
 
-Currently, two official plugins are available:
+## ✨ Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🏫 Menampilkan daftar sekolah yang akan presentasi
+- 📅 Menampilkan hari dan tanggal presentasi
+- 🕒 Menampilkan jam presentasi
+- 🔗 Tombol Mulai Zoom untuk setiap sekolah
+- 🔍 Pencarian sekolah
+- 🗓️ Filter berdasarkan tanggal
+- 📊 Dashboard statistik
+  - Total Sekolah
+  - Total Tanggal Presentasi
+  - Hasil Ditampilkan
+- ✅ Otomatis menandai sesi yang telah selesai
+- 📱 Responsive untuk desktop dan mobile
 
-## React Compiler
+## 🛠️ Teknologi yang Digunakan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Lucide React
+- CSS
 
-## Expanding the ESLint configuration
+## 🚀 Menjalankan Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Menjalankan Development Server
+
+```bash
+npm run dev
+```
+
+### Build Production
+
+```bash
+npm run build
+```
+
+### Preview Build
+
+```bash
+npm run preview
+```
+
+## 📁 Struktur Folder
+
+```text
+src/
+├── assets/
+│   └── logo.png
+├── components/
+│   ├── ScheduleList.jsx
+│   └── CreateByMe.jsx
+├── data/
+│   └── schedule.js
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## 📌 Cara Menambahkan Link Zoom
+
+Buka file:
+
+```text
+src/data/schedule.js
+```
+
+Kemudian ubah:
+
+```js
+link: '#'
+```
+
+Menjadi:
+
+```js
+link: 'https://zoom.us/j/xxxxxxxxxx'
+```
+
+## 👨‍💻 Author
+
+Created by Mas Don
+
+Portfolio:
+
+https://portofolio-ku-gold.vercel.app

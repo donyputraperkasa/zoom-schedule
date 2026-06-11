@@ -1,5 +1,5 @@
 const schedules = [
-    { id: 1, school: 'SMA BOPKRI 1 Yogyakarta', day: 'Rabu', date: '17 Juni 2026', time: '13.00 - 14.30 WIB', link: '#' },
+    { id: 1, school: 'SMA BOPKRI 1 Yogyakarta', day: 'Kamis', date: '17 Juni 2026', time: '13.00 - 14.30 WIB', link: '#' },
     { id: 2, school: 'SMA BOPKRI 2 Yogyakarta', day: 'Rabu', date: '17 Juni 2026', time: '14.30 - 16.00 WIB', link: '#' },
     { id: 3, school: 'SMK BOPKRI 1 Yogyakarta', day: 'Kamis', date: '18 Juni 2026', time: '13.00 - 14.30 WIB', link: '#' },
     { id: 4, school: 'SMK BOPKRI 2 Yogyakarta', day: 'Kamis', date: '18 Juni 2026', time: '14.30 - 16.00 WIB', link: '#' },

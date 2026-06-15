@@ -218,3 +218,46 @@
   color: #0d45bd;
   border-color: #2f81e6;
 }
+
+/* Quick Links */
+.quick-link-btn {
+  transition: all 0.25s ease;
+}
+
+.quick-link-btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Schedule Action Buttons */
+.zoom-action-btn,
+.doc-action-btn {
+  transition: all 0.25s ease;
+}
+
+.zoom-action-btn:hover,
+.doc-action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .quick-link-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dashboard-card {
+    padding: 16px;
+  }
+
+  .dashboard-card h3 {
+    font-size: 16px;
+  }
+
+  .dashboard-card p {
+    font-size: 24px;
+  }
+}

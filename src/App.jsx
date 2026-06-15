@@ -3,8 +3,17 @@ import ScheduleList from './components/ScheduleList'
 import CreateByMe from './components/CreateByMe'
 import { useMemo, useState } from 'react'
 import schedulesData from './data/schedule'
-import { Search, School, CalendarDays, SearchCheck } from 'lucide-react'
+import {
+  Search,
+  School,
+  CalendarDays,
+  SearchCheck,
+  ClipboardList,
+  ImageDown,
+  Headset,
+} from 'lucide-react'
 import logo from './assets/logo.png'
+import backgroundZoom from './assets/background.png'
 
 
 function App() {
@@ -188,6 +197,87 @@ function App() {
           ))}
         </select>
       </div>
+
+      <div
+        style={{
+          display: 'flex',
+          gap: '12px',
+          flexWrap: 'wrap',
+          marginBottom: '24px',
+          justifyContent: 'center',
+        }}
+      >
+        <a
+          href='https://forms.gle/XsXtApac3X8GdTsZ7'
+          target='_blank'
+          rel='noreferrer'
+          className='quick-link-btn'
+          style={{
+            padding: '12px 18px',
+            background: '#2563eb',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '12px',
+            fontWeight: '600',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          <>
+            <ClipboardList size={18} />
+              Link Presensi
+          </>
+        </a>
+
+        <a
+          href={backgroundZoom}
+          download='backgroundPresentasiKurikulum.png'
+          target='_blank'
+          rel='noreferrer'
+          className='quick-link-btn'
+          style={{
+            padding: '12px 18px',
+            background: '#16a34a',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '12px',
+            fontWeight: '600',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          <>
+            <ImageDown size={18} />
+            Download Background Zoom
+          </>
+        </a>
+
+        <a
+          href='https://wa.me/628112645659'
+          target='_blank'
+          rel='noreferrer'
+          className='quick-link-btn'
+          style={{
+            padding: '12px 18px',
+            background: '#f59e0b',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '12px',
+            fontWeight: '600',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          <>
+            <Headset size={18} />
+            Ada Kendala? Hubungi Kami
+          </>
+        </a>
+      </div>
+
       <ScheduleList schedules={schedules} />
 
       <div style={{ marginTop: '50px' }}>

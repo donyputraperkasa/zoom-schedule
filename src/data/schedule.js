@@ -117,7 +117,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/81436131503?pwd=3Ezm5FalAtSYn4oz0bZkE67a6FtaCL.1',
         driveLink: 'https://drive.google.com/drive/folders/1nbfJtf0SOEZiA_NSH8Py9olK46GG8vhu?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1YHMF0Zss_FULiL3tFnhajLAafLfx7FC9?usp=sharing',
     },
     {
         id: 13,
@@ -127,7 +127,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/84808926430?pwd=DagPPGq7Z4baOCa2L9qppU2s2ujTHu.1',
         driveLink: 'https://drive.google.com/drive/folders/1pZkaAWyOcnaaO-IL_lciONAKoPyxw1CN?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1PcewCtjs9c4KU3YlkC5to4my_b2RRZ03?usp=sharing',
     },
     {
         id: 14,
@@ -137,7 +137,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/84808926430?pwd=DagPPGq7Z4baOCa2L9qppU2s2ujTHu.1',
         driveLink: 'https://drive.google.com/drive/folders/1Z8YmmT9GCuuI2XH0C1rFN3_W3NrecQfU?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/16ke5tSoHUo30RAj4dYJT-HukSYu2x7d_?usp=sharing',
     },
     {
         id: 15,
@@ -147,7 +147,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/84354895958?pwd=lsrYbmOuYodNGzC0GSxhPnETwYjgKL.1',
         driveLink: 'https://drive.google.com/drive/folders/1k_mKozJROLZte_mCf4hJh9h5tILybW4e?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1fjPlmNUmjOMwA7UjBQ2bspLiHG058vMo?usp=sharing',
     },
     {
         id: 16,
@@ -157,7 +157,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/84354895958?pwd=lsrYbmOuYodNGzC0GSxhPnETwYjgKL.1',
         driveLink: 'https://drive.google.com/drive/folders/1bTVgtSpYy4Zz0k1_KpXoI0E1LJQp9u6v?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1Wu-HVvvM1Ti6qSHdyhMkx3oKxWJrNAgW?usp=sharing',
     },
     {
         id: 17,
@@ -167,7 +167,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/83764033827?pwd=V24zFDxCgYQ3bs7Nhjbcg2MPI3vnKx.1',
         driveLink: 'https://drive.google.com/drive/folders/1FkNjUqse1AlwoxTSz8Ky-Eia29vv4PwP?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/12Pkinwm035C84pJbl9BUQT3chp8fST9J?usp=sharing',
     },
     {
         id: 18,
@@ -177,7 +177,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/83764033827?pwd=V24zFDxCgYQ3bs7Nhjbcg2MPI3vnKx.1',
         driveLink: 'https://drive.google.com/drive/folders/1_zFyGVPMJs8wAILTG_3YDBJKjkTqCUfr?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/17WN8jQmQRaOH0IRkFhEQQ3JO4OSuYBxh?usp=sharing',
     },
     {
         id: 19,
@@ -187,7 +187,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/89427618984?pwd=P82ZNF1Nd3kVgspcitxPEn6x1JhTfN.1',
         driveLink: 'https://drive.google.com/drive/folders/1VINkmtmMrI4nBvy2MqSUhSExejEwQ6E7?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1Y-jnEYjK93DY4qyq-23MwJJHgb6VKCHD?usp=sharing',
     },
     {
         id: 20,
@@ -197,7 +197,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/89427618984?pwd=P82ZNF1Nd3kVgspcitxPEn6x1JhTfN.1',
         driveLink: 'https://drive.google.com/drive/folders/19y1Scn2a6DbpljvocRsIIj-Ld-hpnZ5u?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1zSU4Tj0FkLN7fW_QSB-oERIEZkJcZ-nR?usp=sharing',
     },
     {
         id: 21,
@@ -207,7 +207,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/84478129268?pwd=uNyh5c1LfwCrGM8xhwwoqXMlK9a8ZC.1',
         driveLink: 'https://drive.google.com/drive/folders/18x49G2_fKUewQACuOxtzyL0i-o2Q60t2?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1p8pJXUuNaZqyrmGXyE-cgZy7k3yKLHjB?usp=sharing',
     },
     {
         id: 22,
@@ -217,7 +217,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/84478129268?pwd=uNyh5c1LfwCrGM8xhwwoqXMlK9a8ZC.1',
         driveLink: 'https://drive.google.com/drive/folders/1q_HzEDCCHjoaZ3XHhFani6_mb6PEc6nW?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/14NJ5cTg3Dnd5AG0oe-c_L87h2D4rVGJk?usp=sharing',
     },
     {
         id: 23,
@@ -227,7 +227,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/87956726322?pwd=QXk8Mrr8RoSrTX4j3aJclkkaaeT6Fv.1',
         driveLink: 'https://drive.google.com/drive/folders/1PJHyPrfE1Ubma3reOVr-ZE0VdM9MHZtI?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1A8Cc73WqbD64UNcCi26zH9Nnf9gPXw5p?usp=sharing',
     },
     {
         id: 24,
@@ -237,7 +237,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/87956726322?pwd=QXk8Mrr8RoSrTX4j3aJclkkaaeT6Fv.1',
         driveLink: 'https://drive.google.com/drive/folders/1j4TQwBfAA1F6PW6TOvtxN_FZU4cMRg6C?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1AvsXuWKAFWzZ_OJ9mUmFMRizHMkWLslw?usp=sharing',
     },
     {
         id: 25,
@@ -247,7 +247,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/85957689331?pwd=pU8aW2VGi6kRbhSaTYa3xBJ5DVOMvo.1',
         driveLink: 'https://drive.google.com/drive/folders/1tCWgyJExeMNw863Z5BdoQURdU0Qwd5Yl?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1BAXaAn4zsIzdRWGjXV_HCc6Iz1ztaZGv?usp=sharing',
     },
     {
         id: 26,
@@ -257,7 +257,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/85957689331?pwd=pU8aW2VGi6kRbhSaTYa3xBJ5DVOMvo.1',
         driveLink: 'https://drive.google.com/drive/folders/155KlX9ZkGucptRiI1SN_Qqy0ayB98K0E?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1cSfspBpGJgO5Hks6oZhSJ7WwOQIMnJ-F?usp=sharing',
     },
     {
         id: 27,
@@ -267,7 +267,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/89435393775?pwd=WHnGjurh1XCeJ5T5PSziQ4WGn6gPVD.1',
         driveLink: 'https://drive.google.com/drive/folders/1aRY1EGbYuOhuYsvY_HCt37snqkQe4Hzr?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1b3LT1T_a0FmK_-lBgJusjW_1uQ7EB0Wm?usp=sharing',
     },
     {
         id: 28,
@@ -277,7 +277,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/89435393775?pwd=WHnGjurh1XCeJ5T5PSziQ4WGn6gPVD.1',
         driveLink: 'https://drive.google.com/drive/folders/1fCkFBQjHR_9ly5Wm5WiWcDVU4OFcS3jq?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/15NzxiLPGhhBXKgD0DCSWq1ZLvZZw5xYI?usp=sharing',
     },
     {
         id: 29,
@@ -287,7 +287,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/86493498731?pwd=422fycznCT5cRw26DdK1x8a4x5av2N.1',
         driveLink: 'https://drive.google.com/drive/folders/1mu5EuEvvxaj6OHZ3bzaDYQEinBQXFWOp?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1NK9rLYQJBl6KpICV-0oy2C3Jvv1MTLpk?usp=sharing',
     },
     {
         id: 30,
@@ -297,7 +297,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/86493498731?pwd=422fycznCT5cRw26DdK1x8a4x5av2N.1',
         driveLink: 'https://drive.google.com/drive/folders/1yfXljU1YoIvAWUe68VhZ-xHHmrDxlc1r?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1yRzxV75yUDDkaVeOc6M0YcsttZeOlQ07?usp=sharing',
     },
     {
         id: 31,
@@ -307,7 +307,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/82732735453?pwd=GZyeOOcjRFUFYvz0QDbN9w6a6DFjrw.1',
         driveLink: 'https://drive.google.com/drive/folders/1wXaVP_PkHG6bXdeOVQflz2P5ZTaW4qTe?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1sFYyccVQ38ccrNqE7t9BVYNjYCSwv_Mg?usp=sharing',
     },
     {
         id: 32,
@@ -317,17 +317,17 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/82732735453?pwd=GZyeOOcjRFUFYvz0QDbN9w6a6DFjrw.1',
         driveLink: 'https://drive.google.com/drive/folders/1e8J2P7qcrTZFOrpUC4BhGCCcABjyJbvH?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1hF86suWZ6I7WiUnP6nfoL1mJi3wZOpNx?usp=sharing',
     },
     {
         id: 33,
-        school: 'TK BOPKRI Pelangi',
+        school: 'KB-TK BOPKRI Pelangi',
         day: 'Rabu',
         date: '15 Juli 2026',
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/89507488280?pwd=3B71tR0PUFvB1GSXdMe5JcGbPAtQGy.1',
         driveLink: 'https://drive.google.com/drive/folders/1830JgoPp5anMqmBCRcAbZey3IrP57A2N?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1RpLxp3DH0-iysdJi-XpvfzSOygDt85ip?usp=sharing',
     },
     {
         id: 34,
@@ -337,7 +337,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/89507488280?pwd=3B71tR0PUFvB1GSXdMe5JcGbPAtQGy.1',
         driveLink: 'https://drive.google.com/drive/folders/1ImosR0GKfVO_GCn6YciQk-Jxx691V1qx?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1xweLKOV-A5P85J4extkO4VKy5oIzNdOO?usp=sharing',
     },
     {
         id: 35,
@@ -347,7 +347,7 @@ const schedules = [
         time: '13.00 - 14.30 WIB',
         link: 'https://us06web.zoom.us/j/83682054285?pwd=1fg7I7jOd6eHw7WB7QPTSyRa7HIajT.1',
         driveLink: 'https://drive.google.com/drive/folders/1Y9_Dp3yfs5IR35o3WsVBOaq58cKFFMg-?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1NWSeXFUtDgvZO6O7KI4_eTvaCcYQdiqq?usp=sharing',
     },
     {
         id: 36,
@@ -357,7 +357,7 @@ const schedules = [
         time: '14.30 - 16.00 WIB',
         link: 'https://us06web.zoom.us/j/83682054285?pwd=1fg7I7jOd6eHw7WB7QPTSyRa7HIajT.1',
         driveLink: 'https://drive.google.com/drive/folders/1EINsF-oUB7GLRDEeDqCaH5fIfXxmqBZ7?usp=sharing',
-        uploadLink: '#',
+        uploadLink: 'https://drive.google.com/drive/folders/1gt33NEqWDxl1o4Yiadhvfw5Wu72fB_QA?usp=sharing',
     },
 ]
 

@@ -180,7 +180,7 @@ function ScheduleList({ schedules }) {
                                 justifyContent: 'center',
                                 alignItems: 'center',
                                 gap: '8px',
-                                background: '#f59e0b',
+                                background: '#d119a6',
                                 color: 'white',
                                 padding: '12px',
                                 borderRadius: '10px',

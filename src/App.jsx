@@ -214,7 +214,7 @@ function App() {
           className='quick-link-btn'
           style={{
             padding: '12px 18px',
-            background: '#2563eb',
+            background: '#9928ea',
             color: 'white',
             textDecoration: 'none',
             borderRadius: '12px',

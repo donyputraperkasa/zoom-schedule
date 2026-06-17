@@ -1,3 +1,26 @@
+/* Dashboard Summary Cards */
+.dashboard-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-card p {
+  margin: 12px 0 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
 /* =========================
   SCHEDULE CARD IMPROVEMENT
 ========================= */

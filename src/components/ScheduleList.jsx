@@ -1,4 +1,4 @@
-import { School, CalendarDays, Clock3, Link as LinkIcon, FileText } from 'lucide-react'
+import { School, CalendarDays, Clock3, Link as LinkIcon, FileText, Upload } from 'lucide-react'
 
 function getScheduleStatus(date, timeRange) {
     const months = {
@@ -112,6 +112,7 @@ function ScheduleList({ schedules }) {
                             display: 'flex',
                             gap: '10px',
                             marginTop: '12px',
+                            flexWrap: 'wrap',
                         }}
                     >
                         <a
@@ -168,6 +169,28 @@ function ScheduleList({ schedules }) {
                         >
                             <FileText size={18} />
                             Dokumentasi
+                        </a>
+                        <a
+                            href={item.uploadLink}
+                            target='_blank'
+                            rel='noreferrer'
+                            className='upload-action-btn'
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                gap: '8px',
+                                background: '#f59e0b',
+                                color: 'white',
+                                padding: '12px',
+                                borderRadius: '10px',
+                                textDecoration: 'none',
+                                fontWeight: '600',
+                                flex: 1,
+                            }}
+                        >
+                            <Upload size={18} />
+                            Upload File Presentasi Kurikulum
                         </a>
                     </div>
                 </div>

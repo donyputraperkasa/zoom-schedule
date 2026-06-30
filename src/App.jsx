@@ -11,6 +11,7 @@ import {
   ClipboardList,
   ImageDown,
   Headset,
+  Megaphone,
 } from 'lucide-react'
 import logo from './assets/logo.png'
 import backgroundZoom from './assets/background.png'
@@ -276,6 +277,73 @@ function App() {
             Ada Kendala? Hubungi Kami
           </>
         </a>
+      </div>
+
+      <div
+        style={{
+          display: 'flex',
+          gap: '16px',
+          alignItems: 'flex-start',
+          background: 'linear-gradient(135deg, #fff7ed 0%, #fffbeb 100%)',
+          border: '1px solid #fed7aa',
+          borderLeft: '6px solid #f59e0b',
+          borderRadius: '20px',
+          padding: '20px 24px',
+          marginBottom: '32px',
+          boxShadow: '0 8px 24px rgba(245, 158, 11, 0.12)',
+        }}
+      >
+        <div
+          style={{
+            width: '48px',
+            height: '48px',
+            minWidth: '48px',
+            borderRadius: '14px',
+            background: '#ffedd5',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <Megaphone size={24} color='#ea580c' />
+        </div>
+
+        <div>
+          <p
+            style={{
+              margin: 0,
+              color: '#9a3412',
+              fontSize: '14px',
+              fontWeight: '700',
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em',
+            }}
+          >
+            Pengumuman Penting
+          </p>
+          <h2
+            style={{
+              margin: '6px 0 8px',
+              color: '#7c2d12',
+              fontSize: '22px',
+              lineHeight: '1.3',
+            }}
+          >
+            Perubahan Jadwal Presentasi Kurikulum
+          </h2>
+          <p
+            style={{
+              margin: 0,
+              color: '#92400e',
+              fontSize: '16px',
+              lineHeight: '1.7',
+            }}
+          >
+            Terdapat perubahan jadwal presentasi kurikulum untuk
+            <strong> SD BOPKRI Wirobrajan</strong> dan
+            <strong> SD BOPKRI Sidomulyo 1</strong>. Silakan cek kembali jadwal terbaru pada daftar di bawah ini.
+          </p>
+        </div>
       </div>
 
       <ScheduleList schedules={schedules} />

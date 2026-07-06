@@ -340,8 +340,8 @@ function App() {
             }}
           >
             Terdapat perubahan jadwal presentasi kurikulum untuk
-            <strong> SD BOPKRI Palihan</strong>. Jadwal di-reschedule dikarenakan ada kabar duka di keluarga
-            <strong> Bu Catur</strong>. Silakan cek kembali jadwal terbaru pada daftar di bawah ini.
+            <strong> SD BOPKRI Palihan dan SD BOPKRI Wonosari II</strong>. Jadwal di-reschedule dikarenakan ada kabar duka di keluarga
+            <strong> Bu Catur</strong> serta reschedule untuk SD BOPKRI Wonosari II.
           </p>
         </div>
       </div>

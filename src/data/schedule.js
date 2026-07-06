@@ -188,6 +188,7 @@ const schedules = [
         link: 'https://us06web.zoom.us/j/89427618984?pwd=P82ZNF1Nd3kVgspcitxPEn6x1JhTfN.1',
         driveLink: 'https://drive.google.com/drive/folders/1VINkmtmMrI4nBvy2MqSUhSExejEwQ6E7?usp=sharing',
         uploadLink: 'https://drive.google.com/drive/folders/1Y-jnEYjK93DY4qyq-23MwJJHgb6VKCHD?usp=sharing',
+        status: 'postponed',
     },
     {
         id: 20,

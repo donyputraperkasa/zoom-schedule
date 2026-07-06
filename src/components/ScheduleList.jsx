@@ -33,7 +33,6 @@ function getScheduleStatus(date, timeRange) {
 
     const startDate = new Date(Number(year), months[monthName], Number(day), startHour, startMinute)
     const endDate = new Date(Number(year), months[monthName], Number(day), endHour, endMinute)
-
     const now = new Date()
 
     if (now < startDate) return 'upcoming'
@@ -44,12 +43,12 @@ function getScheduleStatus(date, timeRange) {
 function ScheduleList({ schedules }) {
     const activeSchedules = schedules.filter((item) => {
         const status = getScheduleStatus(item.date, item.time)
-        return status === 'ongoing' || status === 'upcoming'
+        return item.status === 'postponed' || status === 'ongoing' || status === 'upcoming'
     })
 
     const finishedSchedules = schedules.filter((item) => {
         const status = getScheduleStatus(item.date, item.time)
-        return status === 'finished'
+        return item.status !== 'postponed' && status === 'finished'
     })
 
     return (
@@ -81,6 +80,7 @@ function ScheduleList({ schedules }) {
                 >
                     {activeSchedules.map((item) => {
                         const status = getScheduleStatus(item.date, item.time)
+                        const isPostponed = item.status === 'postponed'
                         const isFinished = status === 'finished'
                         const isOngoing = status === 'ongoing'
                         return (
@@ -92,22 +92,51 @@ function ScheduleList({ schedules }) {
                                 borderRadius: '16px',
                                 padding: '20px',
                                 boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
-                                borderTop: '5px solid #2563eb',
+                                borderTop: `5px solid ${isPostponed ? '#f59e0b' : '#2563eb'}`,
                                 cursor: 'pointer',
                                 transition: 'all 0.3s ease',
                         }}
                         >
-                            <h3
+                            <div
                                 style={{
                                     marginBottom: '12px',
                                     display: 'flex',
                                     alignItems: 'center',
-                                    gap: '10px',
+                                    justifyContent: 'space-between',
+                                    gap: '12px',
+                                    flexWrap: 'wrap',
                                 }}
                             >
-                                <School size={24} color='#2563eb' />
-                                {item.school}
-                            </h3>
+                                <h3
+                                    style={{
+                                        margin: 0,
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '10px',
+                                    }}
+                                >
+                                    <School size={24} color={isPostponed ? '#f59e0b' : '#2563eb'} />
+                                    {item.school}
+                                </h3>
+
+                                {isPostponed && (
+                                    <span
+                                        style={{
+                                            background: '#fef3c7',
+                                            color: '#92400e',
+                                            border: '1px solid #f59e0b',
+                                            borderRadius: '999px',
+                                            padding: '6px 12px',
+                                            fontSize: '13px',
+                                            fontWeight: '700',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '0.04em',
+                                        }}
+                                    >
+                                        Ditunda
+                                    </span>
+                                )}
+                            </div>
 
                             <p
                                 style={{
@@ -154,11 +183,11 @@ function ScheduleList({ schedules }) {
                                 }}
                             >
                                 <a
-                                    href={isFinished ? undefined : item.link}
-                                    target={isFinished ? undefined : '_blank'}
+                                    href={isFinished || isPostponed ? undefined : item.link}
+                                    target={isFinished || isPostponed ? undefined : '_blank'}
                                     rel='noreferrer'
                                     onClick={(e) => {
-                                        if (isFinished) e.preventDefault()
+                                        if (isFinished || isPostponed) e.preventDefault()
                                     }}
                                     className='zoom-action-btn'
                                     style={{
@@ -166,23 +195,25 @@ function ScheduleList({ schedules }) {
                                         justifyContent: 'center',
                                         alignItems: 'center',
                                         gap: '8px',
-                                        background: isFinished
-                                            ? '#94a3b8'
-                                            : isOngoing
-                                                ? '#16a34a'
-                                                : '#2563eb',
+                                        background: isPostponed
+                                            ? '#f59e0b'
+                                            : isFinished
+                                                ? '#94a3b8'
+                                                : isOngoing
+                                                    ? '#16a34a'
+                                                    : '#2563eb',
                                         color: 'white',
                                         padding: '12px',
                                         borderRadius: '10px',
                                         textDecoration: 'none',
                                         fontWeight: 'bold',
-                                        cursor: isFinished ? 'not-allowed' : 'pointer',
-                                        opacity: isFinished ? 0.8 : 1,
+                                        cursor: isFinished || isPostponed ? 'not-allowed' : 'pointer',
+                                        opacity: isFinished || isPostponed ? 0.85 : 1,
                                         flex: 1,
                                     }}
                                 >
                                     <LinkIcon size={18} />
-                                    {isFinished ? 'Sesi Selesai' : isOngoing ? 'Sedang Berjalan' : 'Mulai Zoom'}
+                                    {isPostponed ? 'Jadwal Ditunda' : isFinished ? 'Sesi Selesai' : isOngoing ? 'Sedang Berjalan' : 'Mulai Zoom'}
                                 </a>
 
                                 <a

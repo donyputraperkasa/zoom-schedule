@@ -340,8 +340,8 @@ function App() {
             }}
           >
             Terdapat perubahan jadwal presentasi kurikulum untuk
-            <strong> SD BOPKRI Wirobrajan</strong> dan
-            <strong> SD BOPKRI Sidomulyo 1</strong>. Silakan cek kembali jadwal terbaru pada daftar di bawah ini.
+            <strong> SD BOPKRI Palihan</strong>. Jadwal di-reschedule dikarenakan ada kabar duka di keluarga
+            <strong> Bu Catur</strong>. Silakan cek kembali jadwal terbaru pada daftar di bawah ini.
           </p>
         </div>
       </div>

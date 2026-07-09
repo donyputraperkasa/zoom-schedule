@@ -278,7 +278,8 @@ function App() {
           </>
         </a>
       </div>
-
+      
+      {/* bagian pengumuman */}
       <div
         style={{
           display: 'flex',
@@ -339,9 +340,8 @@ function App() {
               lineHeight: '1.7',
             }}
           >
-            Terdapat perubahan jadwal presentasi kurikulum untuk
-            <strong> SD BOPKRI Palihan dan SD BOPKRI Wonosari II</strong>. Jadwal di-reschedule dikarenakan ada kabar duka di keluarga
-            <strong> Bu Catur</strong> serta reschedule untuk SD BOPKRI Wonosari II.
+            Terdapat penyesuaian jadwal presentasi kurikulum untuk beberapa unit sekolah. Mohon Bapak/Ibu mencermati kembali
+            <strong> hari, tanggal, dan jam pelaksanaan terbaru</strong> pada daftar jadwal di bawah ini.
           </p>
         </div>
       </div>

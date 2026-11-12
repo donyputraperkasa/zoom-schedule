@@ -1,6 +1,7 @@
 import './App.css'
 import ScheduleList from './components/ScheduleList'
 import CreateByMe from './components/CreateByMe'
+import MigrationModal from './components/MigrationModal'
 import { useMemo, useState } from 'react'
 import schedulesData from './data/schedule'
 import {
@@ -351,6 +352,8 @@ function App() {
       <div style={{ marginTop: '50px' }}>
         <CreateByMe />
       </div>
+
+      <MigrationModal />
     </div>
   )
 }
